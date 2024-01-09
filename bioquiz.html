@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biology Quiz</title>
+    <link rel="stylesheet" href="haris.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo border"></div>
+            </div>
+            <div class="nav-adddress border">
+
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="secondpara">Pakistan</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="">All</option>
+                </select>
+
+                <input placeholder="Search Learn Hub" class="input">
+                <div class="searchicon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <a href="file:///C:/Users/Burhan/Desktop/html/index.html">Home</a>
+        <a href="file:///C:/Users/Burhan/Desktop/html/subject.html">Subjects</a>
+        
+        <li class="border"><a href="file:///C:/Users/Burhan/Desktop/html/stoquiz.htm">Quiz</a></li>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main-msg">
+            <p>You are now on Learn Hub. Empower your mind, enrich your skills. Welcome to a world of limitless
+                learning. . </p>
+        </div>
+    </div>
+
+    <div class="bg-white">
+        <h1 class="center score">Biology Quiz Questions</h1>
+        <p>
+        <h1 class="score">Score: <span id="score" class="red">0</span> <span>/5</span></h1>
+        </p>
+        <form>
+
+            <div>
+                <p class="text-red">What is the powerhouse of the cell?</p>
+                <label for="radioOption1">
+                    <input type="radio" id="radioOption1" name="a1" value="correct">
+                    MitoChondria
+                </label>
+                <label for="radioOption2">
+                    <input type="radio" id="radioOption2" name="a1" value="incorrect">
+                    Carbon dioxide (CO2)
+                </label>
+                <label for="radioOption3">
+                    <input type="radio" id="radioOption3" name="a1" value="incorrect">
+                    Ribosome
+                </label>
+                <label for="radioOption4">
+                    <input type="radio" id="radioOption4" name="a1" value="incorrect">
+                    NucleoPlasm
+                </label>
+                <button type="button" onclick="checkAnswer(1)" class="button-15">Submit</button>
+            </div>
+
+            <div>
+                <p class="text-red">Which gas do plants absorb from the atmosphere during photosynthesis?</p>
+                <label for="radioOption1">
+                    <input type="radio" id="radioOption1" name="a2" value="incorrect">
+                    Oxyen (02)
+                </label>
+                <label for="radioOption2">
+                    <input type="radio" id="radioOption2" name="a2" value="correct">
+                    Carbon dioxide (CO2)
+                </label>
+                <label for="radioOption3">
+                    <input type="radio" id="radioOption3" name="a2" value="incorrect">
+                    Nitrogen (NO2)
+                </label>
+                <label for="radioOption4">
+                    <input type="radio" id="radioOption4" name="a2" value="incorrect">
+                    Methane (CH4)
+                </label>
+                <button type="button" onclick="checkAnswer(2)" class="button-15">Submit</button>
+            </div>
+
+            <div>
+                <p class="text-red">What is the main function of red blood cells in the human body?</p>
+                <label for="radioOption1">
+                    <input type="radio" id="radioOption1" name="a3" value="correct">
+                    Transporting Oxyen (02)
+                </label>
+                <label for="radioOption2">
+                    <input type="radio" id="radioOption2" name="a3" value="incorrect">
+                    Transporting Carbon dioxide (CO2)
+                </label>
+                <label for="radioOption3">
+                    <input type="radio" id="radioOption3" name="a3" value="incorrect">
+                    Transporting Nitrogen (NO2)
+                </label>
+                <label for="radioOption4">
+                    <input type="radio" id="radioOption4" name="a3" value="incorrect">
+                    Transporting Methane (CH4)
+                </label>
+                <button type="button" onclick="checkAnswer(3)" class="button-15">Submit</button>
+            </div>
+
+            <div>
+                <p class="text-red">What is the largest organ in the human body?</p>
+                <label for="radioOption1">
+                    <input type="radio" id="radioOption1" name="a4" value="incorrect">
+                    Eyes
+                </label>
+                <label for="radioOption2">
+                    <input type="radio" id="radioOption2" name="a4" value="incorrect">
+                    Heart
+                </label>
+                <label for="radioOption3">
+                    <input type="radio" id="radioOption3" name="a4" value="incorrect">
+                    Brain
+                </label>
+                <label for="radioOption4">
+                    <input type="radio" id="radioOption4" name="a4" value="correct">
+                    Skin
+                </label>
+                <button type="button" onclick="checkAnswer(4)" class="button-15">Submit</button>
+            </div>
+
+            <div>
+                <p class="text-red">What is the basic unit of heredity that carries genetic information?</p>
+                <label for="radioOption1">
+                    <input type="radio" id="radioOption1" name="a5" value="correct">
+                    Gene
+                </label>
+                <label for="radioOption2">
+                    <input type="radio" id="radioOption2" name="a5" value="incorrect">
+                    Heart
+                </label>
+                <label for="radioOption3">
+                    <input type="radio" id="radioOption3" name="a5" value="incorrect">
+                    Inheritance
+                </label>
+                <label for="radioOption4">
+                    <input type="radio" id="radioOption4" name="a5" value="incorrect">
+                    Blood
+                </label>
+                <button type="button" onclick="checkAnswer(5)" class="button-15">Submit</button>
+            </div>
+            <button type="button" class="button-29"><a href="calquiz.html">Calculus Quiz</a></button> 
+        </form>
+    </div>
+
+    <footer>
+        <div class="footpanel1">
+            <a>Back to Top</a>
+        </div>
+        <div class="footpanel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>burhankaimkhani54@gmail.com</a>
+                <a>haris@gmail.com</a>
+                <a>hassan@gmail.com</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>burhankaimkhani54@gmail.com</a>
+                <a>haris@gmail.com</a>
+                <a>hassan@gmail.com</a>
+            </ul>
+            <ul>
+                <p>Get to Know Us</p>
+                <a>burhankaimkhani54@gmail.com</a>
+                <a>haris@gmail.com</a>
+                <a>hassan@gmail.com</a>
+            </ul>
+
+        </div>
+        <div class="footpanrl3">
+            <div class="logo">
+
+            </div>
+        </div>
+        <div class="footpanrl4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a> Privacy Notice</a>
+                <a> Your ads Privacy Chices </a>
+            </div>
+            <div class="copyright">
+                &#169 2023, Learn Hub.com
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
